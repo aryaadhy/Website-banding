@@ -1,0 +1,100 @@
+/* Warna J&T: merah solid di atas putih */
+:root {
+  --jnt-red: #e60012;
+  --jnt-red-dark: #b8000e;
+  --jnt-red-soft: rgba(230, 0, 18, 0.25);
+  --white: #ffffff;
+  --text: #1a1a1a;
+  --muted: #6b6b6b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", "Segoe UI", Arial, sans-serif;
+  background: var(--white);
+  color: var(--text);
+}
+
+.container {
+  max-width: 1100px;
+  padding: 24px 16px;
+  margin: 0 auto;
+}
+
+/* Judul: tebal & miring seperti logo J&T */
+h1 {
+  color: var(--jnt-red);
+  font-weight: 800;
+  font-style: italic;
+  font-size: 2.2rem;
+  letter-spacing: -0.5px;
+  margin: 0 0 28px;
+}
+
+.search-box {
+  width: 100%;
+  max-width: 680px;
+  padding: 18px 22px;
+  font-family: inherit;
+  font-size: 1.1rem;
+  background: var(--jnt-red);
+  color: var(--white);
+  border: 1px solid var(--jnt-red-dark);
+  border-radius: 6px;
+  outline: none;
+}
+
+.search-box::placeholder {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.search-box:focus {
+  box-shadow: 0 0 0 3px var(--jnt-red-soft);
+}
+
+.banding-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 44px;
+}
+
+.banding-item {
+  display: inline-block;
+  padding: 16px 22px;
+  min-width: 200px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--white);
+  background: var(--jnt-red);
+  border: 1px solid var(--jnt-red-dark);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.15s, transform 0.15s;
+}
+
+.banding-item:hover,
+.banding-item:focus-visible {
+  background: var(--jnt-red-dark);
+  transform: translateY(-2px);
+}
+
+.empty {
+  margin-top: 32px;
+  color: var(--muted);
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .banding-item {
+    width: 100%;
+  }
+}
