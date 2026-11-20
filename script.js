@@ -23,6 +23,7 @@ const bandingList = [
   { nama: "PIC OUTGOING", link: "https://docs.google.com/spreadsheets/d/13wfHPS2pNIS3bcGArRDybOHjLfhnrvgosDr2Cv9-qXI/edit?gid=1960388129#gid=1960388129" },
   { nama: "PARCEL CARE", link: "https://docs.google.com/spreadsheets/d/1wG8sIJUeSqGH0xuIE0EMl4WUSGTgSsvYKfgwLDNEjiY/edit?hl=id&gid=472519688#gid=472519688" },
   { nama: "AJUBANDING OTPU", link: "https://jtexpress.feishu.cn/wiki/NDoDwDbCBipDbdkanj9cl3Hdnhb?from=from_copylink&sheet=Sw6pt8" },
+  { nama: "Pengisian REQUEST MOBIL untuk pickup seller DC", link: "https://docs.google.com/spreadsheets/d/1pYp1N0Zc7x81LvJKDoFz3Rudn4-ePfF7-uUrPaJHaHM/edit?usp=sharing" },
 ];
 
 // ===================================================================
