@@ -21,6 +21,7 @@ const bandingList = [
   { nama: "MAINTAIN KODE RETUR", link: "https://docs.google.com/spreadsheets/d/13wfHPS2pNIS3bcGArRDybOHjLfhnrvgosDr2Cv9-qXI/edit?gid=1960388129#gid=1960388129" },
   { nama: "LONGLAT SELLER DILUAR CAKUPAN", link: "https://docs.google.com/spreadsheets/d/13wfHPS2pNIS3bcGArRDybOHjLfhnrvgosDr2Cv9-qXI/edit?gid=1960388129#gid=1960388129" },
   { nama: "PIC OUTGOING", link: "https://docs.google.com/spreadsheets/d/13wfHPS2pNIS3bcGArRDybOHjLfhnrvgosDr2Cv9-qXI/edit?gid=1960388129#gid=1960388129" },
+  { nama: "PARCEL CARE", link: "https://docs.google.com/spreadsheets/d/1wG8sIJUeSqGH0xuIE0EMl4WUSGTgSsvYKfgwLDNEjiY/edit?hl=id&gid=472519688#gid=472519688" },
 ];
 
 // ===================================================================
